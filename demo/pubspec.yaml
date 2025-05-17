@@ -1,7 +1,7 @@
 name: demo
 description: "A new Flutter project."
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none'
 
 version: 1.0.0+1
 
@@ -12,10 +12,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_localizations:
-    sdk: flutter
-  intl:
-
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
@@ -25,14 +21,9 @@ dev_dependencies:
   image_picker:
   file_picker:
   pull_to_refresh_flutter3:
-  intl_generator:
+  provider:
+  nested: ^1.0.0
 
 flutter:
   uses-material-design: true
-  generate: true
 
-localizations:
-  arb-dir: lib/l10n # 确保你的 l10n 文件夹在 lib 目录下
-  template-arb-file: app_en.arb
-  output-localization-file: app_localizations.dart
-  output-class: AppLocalizations # 可选：指定类名
