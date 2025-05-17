@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pull_to_refresh_flutter3/pull_to_refresh_flutter3.dart';
 
-void main() => runApp(MyApp());
+// void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

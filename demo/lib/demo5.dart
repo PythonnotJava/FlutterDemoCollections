@@ -138,11 +138,11 @@ class PageBState extends State<PageB>{
   }
 }
 
-void main() {
-  runApp(MaterialApp(
-    theme: ThemeData.light(),
-    title: '路由与传参',
-    initialRoute: RoutePath.pathA,
-    onGenerateRoute: RoutePath.generateRoute,
-  ));
-}
+// void main() {
+//   runApp(MaterialApp(
+//     theme: ThemeData.light(),
+//     title: '路由与传参',
+//     initialRoute: RoutePath.pathA,
+//     onGenerateRoute: RoutePath.generateRoute,
+//   ));
+// }

@@ -29,8 +29,8 @@ class CustomHome extends Widget {
   }
 }
 
-main() => runApp(MaterialApp(
-  theme: ThemeData.light(),
-  home: CustomHome(),
-  title: '使用抽象的Element来自定义控件',
-));
+// main() => runApp(MaterialApp(
+//   theme: ThemeData.light(),
+//   home: CustomHome(),
+//   title: '使用抽象的Element来自定义控件',
+// ));

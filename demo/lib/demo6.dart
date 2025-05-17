@@ -48,8 +48,8 @@ class MyApp extends StatelessWidget{
   }
 }
 
-main() => runApp(MaterialApp(
-  theme: ThemeData.dark(),
-  home: MyApp(),
-  title: '手势监听',
-));
+// main() => runApp(MaterialApp(
+//   theme: ThemeData.dark(),
+//   home: MyApp(),
+//   title: '手势监听',
+// ));

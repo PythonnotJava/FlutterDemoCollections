@@ -211,8 +211,8 @@ class Page3 extends StatelessWidget {
   }
 }
 
-main() => runApp(MaterialApp(
-  theme: ThemeData.light(),
-  title: '页面的整体滚动组装',
-  home: HomePage(),
-));
+// main() => runApp(MaterialApp(
+//   theme: ThemeData.light(),
+//   title: '页面的整体滚动组装',
+//   home: HomePage(),
+// ));

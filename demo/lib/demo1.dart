@@ -99,8 +99,8 @@ class JumpToPage extends StatelessWidget {
   }
 }
 
-void main() => runApp(MaterialApp(
-  theme: ThemeData.light(),
-  title: '基于PageStorage保存控件状态',
-  home: HomePage(),
-));
+// void main() => runApp(MaterialApp(
+//   theme: ThemeData.light(),
+//   title: '基于PageStorage保存控件状态',
+//   home: HomePage(),
+// ));
