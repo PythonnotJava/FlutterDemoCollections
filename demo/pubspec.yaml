@@ -13,7 +13,8 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
-
+  reorderables: ^0.6.0
+  desktop_multi_window: ^0.2.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
